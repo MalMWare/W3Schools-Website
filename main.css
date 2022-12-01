@@ -1,16 +1,53 @@
+/* still trying to figure out how to get an image before a nav bar line. If you have any tips let me know. */
 .logo {
-    position: absolute;
-    left: 0px;
+    display: block;
+    float:left;
     width: 50px;
     height: 50px;
     margin: 0 10em 0 0;
 }
 
 .w3-dropdown-click {
-    position: absolute;
-    right: 100px;
+    display:inline-block;
+    left: 10px;
     background-color: white;
 }
+
 body {
-    background-color: navy;
+    background-color:white;
 }
+
+h1 {
+    color: white;
+    padding-top: 55px;
+}
+
+h2 {
+    color: lightpink;
+    padding: 0.5em;
+}
+
+.not {
+    display: block;
+    color: white;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    background-color: dimgrey;
+}
+
+/* not sure how to create a seamless background yet*/
+
+main {
+    background-color:palegreen;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
