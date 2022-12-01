@@ -1,0 +1,16 @@
+.logo {
+    position: absolute;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    margin: 0 10em 0 0;
+}
+
+.w3-dropdown-click {
+    position: absolute;
+    right: 100px;
+    background-color: white;
+}
+body {
+    background-color: navy;
+}
